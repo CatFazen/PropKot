@@ -195,7 +195,6 @@ def plot_T_t4_sweep(results, title="Turbine inlet temperature sweep"):
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))
     
     axes[0].plot(results['T_t4'], results['thrust'], 'b-o', linewidth=2, markersize=6)
-    axes[0].axvline(1200, color='gray', linestyle=':', alpha=0.7, label='Inconel continuous limit')
     axes[0].axvline(1250, color='red', linestyle='--', alpha=0.5, label='Design point')
     axes[0].set_xlabel('Turbine inlet temperature T_t4 (K)')
     axes[0].set_ylabel('Thrust (N)')
