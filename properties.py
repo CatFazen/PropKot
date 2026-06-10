@@ -1,4 +1,13 @@
 """
+properties.py
+Part of the PropKot turbojet cycle analysis project.
+
+Copyright (c) 2026 Andrii Kotenev
+Licensed under the MIT License - see LICENSE file for details.
+"""
+
+
+"""
 properties.py — Air and combustion product properties from Mattingly Appendix D.
 
 Provides interpolation functions for enthalpy h and reverse lookup T from h,
