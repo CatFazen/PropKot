@@ -1,4 +1,12 @@
 """
+analyze.py
+Part of the PropKot turbojet cycle analysis project.
+
+Copyright (c) 2026 Andrii Kotenev
+Licensed under the MIT License - see LICENSE file for details.
+"""
+
+"""
 Here I call stations.py to do a full cycle analysis. Provides sweep functions for parameter studies.
 """
 
